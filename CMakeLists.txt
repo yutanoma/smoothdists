@@ -15,10 +15,10 @@ option(LIBIGL_GLFW                "Use GLFW"           ON)
 option(LIBIGL_IMGUI               "Use ImGui"          ON)
 option(LIBIGL_PNG                 "Use PNG"            ON)
 
-find_package(Matlab COMPONENTS MEX_COMPILER MX_LIBRARY ENG_LIBRARY MAT_LIBRARY)
-if(Matlab_FOUND)
-  option(LIBIGL_RESTRICTED_MATLAB   "Use Matlab"         ON)
-endif()
+# find_package(Matlab COMPONENTS MEX_COMPILER MX_LIBRARY ENG_LIBRARY MAT_LIBRARY)
+# if(Matlab_FOUND)
+#   option(LIBIGL_RESTRICTED_MATLAB   "Use Matlab"         ON)
+# endif()
 
 include(FetchContent)
 
